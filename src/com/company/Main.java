@@ -6,7 +6,7 @@ public class Main {
 
     Scanner sc = new Scanner(System.in);
 
-    public int askAboutAge(){
+    public int aAboutAge(){
         System.out.println("Hvad er din alder?");
         int alder = sc.nextInt();
         return alder;
@@ -19,6 +19,6 @@ public class Main {
         System.out.println("Indtast navn:");
         String navn = obj.sc.nextLine();
         System.out.println("Hej " + navn);
-        int alder = obj.askAboutAge();
+        int alder = obj.aAboutAge();
     }
 }
