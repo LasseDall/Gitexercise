@@ -4,12 +4,21 @@ import java.util.Scanner;
 
 public class Main {
 
+    Scanner sc = new Scanner(System.in);
+
+    public int askAboutAge(){
+        System.out.println("Hvad er din alder?");
+        int alder = sc.nextInt();
+        return alder;
+    }
+
     public static void main(String[] args) {
 	// write your code here
-        Scanner sc = new Scanner(System.in);
+        Main obj = new Main();
         System.out.println("It works!");
         System.out.println("Indtast navn:");
-        String navn = sc.nextLine();
+        String navn = obj.sc.nextLine();
         System.out.println("Hej " + navn);
+        int alder = obj.askAboutAge();
     }
 }
