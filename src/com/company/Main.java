@@ -13,6 +13,10 @@ public class Main {
         return alder;
     }
 
+    public void super(){
+        System.out.println("Super!");
+    }
+
     public static void main(String[] args) {
 	// write your code here
         Main obj = new Main();
