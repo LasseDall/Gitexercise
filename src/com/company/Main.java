@@ -1,5 +1,6 @@
 package com.company;
 
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Main {
@@ -20,5 +21,6 @@ public class Main {
         String navn = obj.sc.nextLine();
         System.out.println("Hej " + navn);
         int alder = obj.aAboutAge();
+        System.out.println("Super");
     }
 }
