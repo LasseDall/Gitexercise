@@ -13,7 +13,7 @@ public class Main {
         return alder;
     }
 
-    public void super(){
+    public void superduper(){
         System.out.println("Super!");
     }
 
@@ -26,5 +26,6 @@ public class Main {
         System.out.println("Hej " + navn);
         int alder = obj.aAboutAge();
         System.out.println("Super");
+        obj.superduper();
     }
 }
